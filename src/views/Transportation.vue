@@ -4,8 +4,6 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <Navbar />
-
   <section class="bg-white p-6 md:p-10 rounded-lg shadow-md text-gray-800 max-w-4xl mx-auto my-10">
     <div class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">地理位置</h2>

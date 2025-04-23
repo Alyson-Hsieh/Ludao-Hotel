@@ -1,5 +1,4 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import r1 from "@/assets/images/r1.jpg";
 import r2 from "@/assets/images/r2.jpg";
@@ -10,7 +9,6 @@ import r4 from "@/assets/images/r4.jpg";
 </script>
 
 <template>
-  <Navbar class="fixed z-50" />
   <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">

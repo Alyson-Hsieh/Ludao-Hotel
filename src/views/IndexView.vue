@@ -1,5 +1,4 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import logo from "@/assets/images/Ludao_logo.png";
 import b1 from "@/assets/images/b1.jpg";
@@ -10,7 +9,6 @@ import r5 from "@/assets/images/r5.jpg";
 </script>
 
 <template>
-  <Navbar class="fixed z-50" />
   <div class="px-4">
     <section class="mb-5">
       <div class="flex justify-center py-30">

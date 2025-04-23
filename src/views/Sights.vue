@@ -1,5 +1,4 @@
 <script setup>
-import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 import s6 from "@/assets/images/八二三.jpg";
 import s7 from "@/assets/images/民俗文化村.jpg";
@@ -12,7 +11,6 @@ import s4 from "@/assets/images/慈湖.jpg";
 </script>
 
 <template>
-  <Navbar />
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">

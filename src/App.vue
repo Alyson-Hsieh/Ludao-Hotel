@@ -1,6 +1,6 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterLink, RouterView } from "vue-router";
+import Navbar from "@/components/Navbar.vue";
 </script>
 
 <template>
@@ -16,12 +16,13 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header> -->
+  <Navbar />
 
   <RouterView />
 </template>
 
 <style>
-body{
-  background-color:#fafafa;
+body {
+  background-color: #fafafa;
 }
 </style>
