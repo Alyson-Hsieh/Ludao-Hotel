@@ -13,9 +13,9 @@ import s4 from "@/assets/images/慈湖.jpg";
 <template>
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="text-3xl font-medium title-font mb-4 text-gray-900 tracking-widest">周邊景點</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-2xl">
+      <div class="flex flex-col text-center w-full mb-20 ">
+        <h1 class="text-3xl font-medium title-font mb-4 text-gray-900 tracking-widest font-serif">周邊景點</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-2xl font-serif">
           探索金門，漫遊閩南建築群的歲月記憶
         </p>
       </div>
@@ -157,6 +157,77 @@ import s4 from "@/assets/images/慈湖.jpg";
               <p class="title-font font-medium text-lg text-gray-900 mb-4">水頭聚落（得月樓）</p>
               <p class="mb-4">
                 昔日僑民回鄉興建的洋樓群，保留閩南與西洋融合建築，漫步其中彷彿走進時光隧道。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left"
+          >
+            <img
+              alt="team"
+              class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              :src="s2"
+            />
+            <div class="flex-grow sm:pl-8">
+              <p class="title-font font-medium text-lg text-gray-900 mb-4">莒光樓</p>
+              <p class="mb-4">
+                融合傳統與現代的建築風格，象徵忠勇精神，登高遠望可俯瞰金門港灣與市區景致，是金門代表性地標。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left"
+          >
+            <img
+              alt="team"
+              class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              :src="s3"
+            />
+            <div class="flex-grow sm:pl-8">
+              <p class="title-font font-medium text-lg text-gray-900 mb-4">
+                金門酒廠（高粱文化館）
+              </p>
+              <p class="mb-4">
+                金門高粱酒發源地，館內展示釀酒技術與歷史故事，還能試飲高粱，深刻體驗金門的酒文化與風土。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left"
+          >
+            <img
+              alt="team"
+              class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              :src="s4"
+            />
+            <div class="flex-grow sm:pl-8">
+              <p class="title-font font-medium text-lg text-gray-900 mb-4">慈湖三角堡</p>
+              <p class="mb-4">
+                位於慈湖旁的觀景堡壘，曾為軍事瞭望哨，現成熱門打卡地，可欣賞海景與夕陽，是文青系旅人最愛。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left"
+          >
+            <img
+              alt="team"
+              class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              :src="s5"
+            />
+            <div class="flex-grow sm:pl-8">
+              <p class="title-font font-medium text-lg text-gray-900 mb-4">陽翟老街</p>
+              <p class="mb-4">
+                懷舊街道保留 60
+                年代風貌，曾為電影《軍中樂園》拍攝地，街道氛圍獨特，是網美與影迷熱愛之地。
               </p>
             </div>
           </div>

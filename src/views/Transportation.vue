@@ -4,6 +4,11 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
+  <div class="flex flex-col text-center w-full my-20">
+    <h1 class="text-3xl font-medium title-font mb-4 text-gray-900 tracking-widest font-serif">
+      交通指引
+    </h1>
+  </div>
   <section class="bg-white p-6 md:p-10 rounded-lg shadow-md text-gray-800 max-w-4xl mx-auto my-10">
     <div class="mb-8">
       <h2 class="text-2xl font-semibold mb-4">地理位置</h2>

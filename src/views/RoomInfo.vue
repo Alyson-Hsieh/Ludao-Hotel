@@ -9,8 +9,13 @@ import r4 from "@/assets/images/r4.jpg";
 </script>
 
 <template>
+      <div class="flex flex-col text-center w-full my-20 ">
+    <h1 class="text-3xl font-medium title-font  text-gray-900 tracking-widest font-serif">
+      客房介紹
+    </h1>
+  </div>
   <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 pb-24 mx-auto">
     <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
       <div class="sm:w-1/2 mb-10 px-4">
         <div class="rounded-lg h-64 overflow-hidden">
