@@ -41,12 +41,12 @@ const closeMenu = () => {
           <img :src="logo" alt="logo" class="mr-4 w-[40%] lg:w-[50%] hidden sm:block" />
         </RouterLink> -->
         <img :src="logo" alt="logo" class="mr-4 w-[40%] lg:w-[50%] hidden sm:block" />
-        <ul class="space-y-8 text-lg font-serif text-white">
+        <ul class="space-y-8 text-lg font-serif text-stone-600">
           <li>
             <RouterLink
               to="/room"
               @click="closeMenu"
-              class="text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
+              class="hover:text-black text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
               >客房介紹</RouterLink
             >
           </li>
@@ -54,7 +54,7 @@ const closeMenu = () => {
             <RouterLink
               to="/sights"
               @click="closeMenu"
-              class="text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
+              class="hover:text-black text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
               >周邊景點</RouterLink
             >
           </li>
@@ -62,7 +62,7 @@ const closeMenu = () => {
             <RouterLink
               to="/transportation"
               @click="closeMenu"
-              class="text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
+              class="hover:text-black text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
               >交通指引</RouterLink
             >
           </li>
@@ -70,7 +70,7 @@ const closeMenu = () => {
             <RouterLink
               to="/contact"
               @click="closeMenu"
-              class="text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
+              class="hover:text-black text-xl hover:text-2xl sm:text-3xl sm:hover:text-4xl lg:text-4xl lg:hover:text-5xl hover:border-b-2"
               >聯絡我們</RouterLink
             >
           </li>
