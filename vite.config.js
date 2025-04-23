@@ -7,6 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Ludao-Hotel/", // 重點就是這行！
   plugins: [vue(), vueDevTools(), tailwindcss()],
   resolve: {
     alias: {
